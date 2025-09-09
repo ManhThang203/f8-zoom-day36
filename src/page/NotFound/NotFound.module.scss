@@ -1,0 +1,10 @@
+.container {
+  height: 100vh;
+  .notFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 600;
+  }
+}

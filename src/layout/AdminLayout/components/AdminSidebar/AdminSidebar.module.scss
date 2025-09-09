@@ -1,0 +1,23 @@
+.wrapper {
+  width: 20rem;
+  height: 100%;
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  border-right: 1px solid #333;
+  li {
+    background: rgb(14, 126, 160);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    + li {
+      margin-top: 20px;
+    }
+    :hover {
+      transform: scale(1.1);
+    }
+    .active {
+      color: red;
+    }
+  }
+}
