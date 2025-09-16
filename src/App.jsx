@@ -1,5 +1,6 @@
 import AppRoutes from "./components/AppRoutes";
 import "./assets/styles/main.scss";
+
 function App() {
   return (
     <>
